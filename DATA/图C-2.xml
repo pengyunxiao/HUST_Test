@@ -1,0 +1,648 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="LDCS" msdata:CaseSensitive="False" msdata:Locale="zh-CN">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Date" type="xs:int" minOccurs="0" />
+                <xs:element name="P1" type="xs:double" minOccurs="0" />
+                <xs:element name="P2" type="xs:double" minOccurs="0" />
+                <xs:element name="P3" type="xs:double" minOccurs="0" />
+                <xs:element name="P4" type="xs:double" minOccurs="0" />
+                <xs:element name="P5" type="xs:double" minOccurs="0" />
+                <xs:element name="P6" type="xs:double" minOccurs="0" />
+                <xs:element name="P7" type="xs:double" minOccurs="0" />
+                <xs:element name="P8" type="xs:double" minOccurs="0" />
+                <xs:element name="P9" type="xs:double" minOccurs="0" />
+                <xs:element name="P10" type="xs:double" minOccurs="0" />
+                <xs:element name="P11" type="xs:double" minOccurs="0" />
+                <xs:element name="P12" type="xs:double" minOccurs="0" />
+                <xs:element name="P13" type="xs:double" minOccurs="0" />
+                <xs:element name="P14" type="xs:double" minOccurs="0" />
+                <xs:element name="P15" type="xs:double" minOccurs="0" />
+                <xs:element name="P16" type="xs:double" minOccurs="0" />
+                <xs:element name="P17" type="xs:double" minOccurs="0" />
+                <xs:element name="P18" type="xs:double" minOccurs="0" />
+                <xs:element name="P19" type="xs:double" minOccurs="0" />
+                <xs:element name="P20" type="xs:double" minOccurs="0" />
+                <xs:element name="P21" type="xs:double" minOccurs="0" />
+                <xs:element name="P22" type="xs:double" minOccurs="0" />
+                <xs:element name="P23" type="xs:double" minOccurs="0" />
+                <xs:element name="P24" type="xs:double" minOccurs="0" />
+                <xs:element name="P25" type="xs:double" minOccurs="0" />
+                <xs:element name="P26" type="xs:double" minOccurs="0" />
+                <xs:element name="P27" type="xs:double" minOccurs="0" />
+                <xs:element name="P28" type="xs:double" minOccurs="0" />
+                <xs:element name="P29" type="xs:double" minOccurs="0" />
+                <xs:element name="P30" type="xs:double" minOccurs="0" />
+                <xs:element name="P31" type="xs:double" minOccurs="0" />
+                <xs:element name="P32" type="xs:double" minOccurs="0" />
+                <xs:element name="P33" type="xs:double" minOccurs="0" />
+                <xs:element name="P34" type="xs:double" minOccurs="0" />
+                <xs:element name="P35" type="xs:double" minOccurs="0" />
+                <xs:element name="P36" type="xs:double" minOccurs="0" />
+                <xs:element name="P37" type="xs:double" minOccurs="0" />
+                <xs:element name="P38" type="xs:double" minOccurs="0" />
+                <xs:element name="P39" type="xs:double" minOccurs="0" />
+                <xs:element name="P40" type="xs:double" minOccurs="0" />
+                <xs:element name="P41" type="xs:double" minOccurs="0" />
+                <xs:element name="P42" type="xs:double" minOccurs="0" />
+                <xs:element name="P43" type="xs:double" minOccurs="0" />
+                <xs:element name="P44" type="xs:double" minOccurs="0" />
+                <xs:element name="P45" type="xs:double" minOccurs="0" />
+                <xs:element name="P46" type="xs:double" minOccurs="0" />
+                <xs:element name="P47" type="xs:double" minOccurs="0" />
+                <xs:element name="P48" type="xs:double" minOccurs="0" />
+                <xs:element name="Flag" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="MAPS" msdata:CaseSensitive="False" msdata:Locale="zh-CN">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Flag" type="xs:int" minOccurs="0" />
+                <xs:element name="Yn" type="xs:int" minOccurs="0" />
+                <xs:element name="Yx" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="STYL">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Hatch" type="xs:string" minOccurs="0" />
+                <xs:element name="ARGB" type="xs:string" minOccurs="0" />
+                <xs:element name="Flag" type="xs:int" minOccurs="0" />
+                <xs:element name="Mark" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <LDCS>
+    <Date>302</Date>
+    <P1>14555</P1>
+    <P2>13004</P2>
+    <P3>12976</P3>
+    <P4>13027</P4>
+    <P5>12908</P5>
+    <P6>12816</P6>
+    <P7>12781</P7>
+    <P8>12840</P8>
+    <P9>12789</P9>
+    <P10>12767</P10>
+    <P11>13123</P11>
+    <P12>14443</P12>
+    <P13>17479</P13>
+    <P14>19291</P14>
+    <P15>20071</P15>
+    <P16>20479</P16>
+    <P17>20407</P17>
+    <P18>21146</P18>
+    <P19>21689</P19>
+    <P20>21647</P20>
+    <P21>22105</P21>
+    <P22>22310</P22>
+    <P23>23028</P23>
+    <P24>22613</P24>
+    <P25>21511</P25>
+    <P26>20731</P26>
+    <P27>20608</P27>
+    <P28>20736</P28>
+    <P29>21362</P29>
+    <P30>20999</P30>
+    <P31>21469</P31>
+    <P32>21490</P32>
+    <P33>21935</P33>
+    <P34>22256</P34>
+    <P35>22977</P35>
+    <P36>23153</P36>
+    <P37>23465</P37>
+    <P38>23317</P38>
+    <P39>23136</P39>
+    <P40>22827</P40>
+    <P41>22827</P41>
+    <P42>22156</P42>
+    <P43>21469</P43>
+    <P44>20468</P44>
+    <P45>19200</P45>
+    <P46>16979</P46>
+    <P47>17472</P47>
+    <P48>16590</P48>
+    <Flag>32</Flag>
+  </LDCS>
+  <LDCS>
+    <Date>302</Date>
+    <P1>13073</P1>
+    <P2>11561</P2>
+    <P3>11561</P3>
+    <P4>11562</P4>
+    <P5>11416</P5>
+    <P6>11388</P6>
+    <P7>11414</P7>
+    <P8>11561</P8>
+    <P9>11562</P9>
+    <P10>11561</P10>
+    <P11>12015</P11>
+    <P12>13394</P12>
+    <P13>16516</P13>
+    <P14>18429</P14>
+    <P15>19262</P15>
+    <P16>19718</P16>
+    <P17>19733</P17>
+    <P18>20535</P18>
+    <P19>21144</P19>
+    <P20>21163</P20>
+    <P21>21632</P21>
+    <P22>21834</P22>
+    <P23>22584</P23>
+    <P24>22213</P24>
+    <P25>21046</P25>
+    <P26>20249</P26>
+    <P27>20105</P27>
+    <P28>20151</P28>
+    <P29>20782</P29>
+    <P30>20371</P30>
+    <P31>20887</P31>
+    <P32>20852</P32>
+    <P33>21337</P33>
+    <P34>21636</P34>
+    <P35>22317</P35>
+    <P36>22460</P36>
+    <P37>22617</P37>
+    <P38>22367</P38>
+    <P39>22188</P39>
+    <P40>21929</P40>
+    <P41>21927</P41>
+    <P42>21315</P42>
+    <P43>20638</P43>
+    <P44>19563</P44>
+    <P45>18263</P45>
+    <P46>15974</P46>
+    <P47>16502</P47>
+    <P48>15721</P48>
+    <Flag>30</Flag>
+  </LDCS>
+  <LDCS>
+    <Date>302</Date>
+    <P1>12877</P1>
+    <P2>11366</P2>
+    <P3>11366</P3>
+    <P4>11366</P4>
+    <P5>11221</P5>
+    <P6>11192</P6>
+    <P7>11219</P7>
+    <P8>11366</P8>
+    <P9>11366</P9>
+    <P10>11366</P10>
+    <P11>11820</P11>
+    <P12>13198</P12>
+    <P13>16321</P13>
+    <P14>18233</P14>
+    <P15>19067</P15>
+    <P16>19523</P16>
+    <P17>19523</P17>
+    <P18>20278</P18>
+    <P19>20750</P19>
+    <P20>20742</P20>
+    <P21>21018</P21>
+    <P22>21348</P22>
+    <P23>21928</P23>
+    <P24>21571</P24>
+    <P25>20424</P25>
+    <P26>19563</P26>
+    <P27>19523</P27>
+    <P28>19523</P28>
+    <P29>20244</P29>
+    <P30>19914</P30>
+    <P31>20425</P31>
+    <P32>20425</P32>
+    <P33>20892</P33>
+    <P34>21364</P34>
+    <P35>22013</P35>
+    <P36>22311</P36>
+    <P37>22541</P37>
+    <P38>22354</P38>
+    <P39>22188</P39>
+    <P40>21929</P40>
+    <P41>21927</P41>
+    <P42>21315</P42>
+    <P43>20638</P43>
+    <P44>19563</P44>
+    <P45>18263</P45>
+    <P46>15974</P46>
+    <P47>16502</P47>
+    <P48>15721</P48>
+    <Flag>25</Flag>
+  </LDCS>
+  <LDCS>
+    <Date>302</Date>
+    <P1>12217</P1>
+    <P2>10706</P2>
+    <P3>10706</P3>
+    <P4>10706</P4>
+    <P5>10561</P5>
+    <P6>10532</P6>
+    <P7>10559</P7>
+    <P8>10706</P8>
+    <P9>10706</P9>
+    <P10>10706</P10>
+    <P11>11160</P11>
+    <P12>12538</P12>
+    <P13>15661</P13>
+    <P14>18233</P14>
+    <P15>19067</P15>
+    <P16>19523</P16>
+    <P17>19523</P17>
+    <P18>20278</P18>
+    <P19>20750</P19>
+    <P20>20742</P20>
+    <P21>21018</P21>
+    <P22>21348</P22>
+    <P23>21928</P23>
+    <P24>21571</P24>
+    <P25>20424</P25>
+    <P26>19563</P26>
+    <P27>19523</P27>
+    <P28>19523</P28>
+    <P29>20244</P29>
+    <P30>19914</P30>
+    <P31>20425</P31>
+    <P32>20425</P32>
+    <P33>20892</P33>
+    <P34>21364</P34>
+    <P35>22013</P35>
+    <P36>22311</P36>
+    <P37>22541</P37>
+    <P38>22354</P38>
+    <P39>22188</P39>
+    <P40>21929</P40>
+    <P41>21927</P41>
+    <P42>21315</P42>
+    <P43>20638</P43>
+    <P44>19563</P44>
+    <P45>18263</P45>
+    <P46>15974</P46>
+    <P47>16502</P47>
+    <P48>15721</P48>
+    <Flag>21</Flag>
+  </LDCS>
+  <LDCS>
+    <Date>302</Date>
+    <P1>14768</P1>
+    <P2>14052</P2>
+    <P3>14199</P3>
+    <P4>14071</P4>
+    <P5>13892</P5>
+    <P6>13785</P6>
+    <P7>13745</P7>
+    <P8>13934</P8>
+    <P9>13766</P9>
+    <P10>13736</P10>
+    <P11>14015</P11>
+    <P12>14363</P12>
+    <P13>15242</P13>
+    <P14>15964</P14>
+    <P15>16746</P15>
+    <P16>16871</P16>
+    <P17>16893</P17>
+    <P18>17325</P18>
+    <P19>17783</P19>
+    <P20>17718</P20>
+    <P21>17847</P21>
+    <P22>18132</P22>
+    <P23>18353</P23>
+    <P24>18190</P24>
+    <P25>17479</P25>
+    <P26>16885</P26>
+    <P27>16818</P27>
+    <P28>16897</P28>
+    <P29>17334</P29>
+    <P30>17265</P30>
+    <P31>17506</P31>
+    <P32>17505</P32>
+    <P33>17903</P33>
+    <P34>18271</P34>
+    <P35>18721</P35>
+    <P36>19057</P36>
+    <P37>19480</P37>
+    <P38>19363</P38>
+    <P39>19166</P39>
+    <P40>18809</P40>
+    <P41>18731</P41>
+    <P42>18207</P42>
+    <P43>17884</P43>
+    <P44>17167</P44>
+    <P45>16337</P45>
+    <P46>15713</P46>
+    <P47>15843</P47>
+    <P48>15454</P48>
+    <Flag>0</Flag>
+  </LDCS>
+  <MAPS>
+    <Flag>104</Flag>
+    <Yn>21909</Yn>
+    <Yx>22541</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>4</Flag>
+    <Yn>21407</Yn>
+    <Yx>21909</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>102</Flag>
+    <Yn>21344</Yn>
+    <Yx>21407</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>4</Flag>
+    <Yn>21244</Yn>
+    <Yx>21344</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>5</Flag>
+    <Yn>20712</Yn>
+    <Yx>21244</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>4</Flag>
+    <Yn>20702</Yn>
+    <Yx>20712</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>102</Flag>
+    <Yn>20269</Yn>
+    <Yx>20702</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>4</Flag>
+    <Yn>19573</Yn>
+    <Yx>20269</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>102</Flag>
+    <Yn>19479</Yn>
+    <Yx>19573</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>101</Flag>
+    <Yn>18361</Yn>
+    <Yx>19479</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>102</Flag>
+    <Yn>17833</Yn>
+    <Yx>18361</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>4</Flag>
+    <Yn>11347</Yn>
+    <Yx>17833</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>104</Flag>
+    <Yn>11192</Yn>
+    <Yx>11347</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>3</Flag>
+    <Yn>10409</Yn>
+    <Yx>11192</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>103</Flag>
+    <Yn>8513</Yn>
+    <Yx>10409</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>104</Flag>
+    <Yn>2247</Yn>
+    <Yx>8513</Yx>
+  </MAPS>
+  <MAPS>
+    <Flag>4</Flag>
+    <Yn>0</Yn>
+    <Yx>2247</Yx>
+  </MAPS>
+  <STYL>
+    <Name>原始负荷</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>0</Flag>
+    <Mark>1</Mark>
+  </STYL>
+  <STYL>
+    <Name>电力不足</Name>
+    <Hatch>Percent10</Hatch>
+    <ARGB>255 211 211 211</ARGB>
+    <Flag>21</Flag>
+    <Mark>1</Mark>
+  </STYL>
+  <STYL>
+    <Name>调峰不足</Name>
+    <Hatch>Percent25</Hatch>
+    <ARGB>255 255 255 255</ARGB>
+    <Flag>40</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>光伏弃光</Name>
+    <Hatch>BackwardDiagonal</Hatch>
+    <ARGB>255 255 255 0</ARGB>
+    <Flag>50</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>光伏发电</Name>
+    <Hatch>LightVertical</Hatch>
+    <ARGB>255 255 255 0</ARGB>
+    <Flag>30</Flag>
+    <Mark>1</Mark>
+  </STYL>
+  <STYL>
+    <Name>风电弃风</Name>
+    <Hatch>BackwardDiagonal</Hatch>
+    <ARGB>255 0 255 0</ARGB>
+    <Flag>52</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>风力发电</Name>
+    <Hatch>LightVertical</Hatch>
+    <ARGB>255 0 255 0</ARGB>
+    <Flag>32</Flag>
+    <Mark>1</Mark>
+  </STYL>
+  <STYL>
+    <Name>新能源弃电</Name>
+    <Hatch>BackwardDiagonal</Hatch>
+    <ARGB>255 0 128 0</ARGB>
+    <Flag>55</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>新能源发电</Name>
+    <Hatch>LightVertical</Hatch>
+    <ARGB>255 0 128 0</ARGB>
+    <Flag>35</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>水电弃水</Name>
+    <Hatch>DiagonalCross</Hatch>
+    <ARGB>255 0 255 255</ARGB>
+    <Flag>45</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>水力发电</Name>
+    <Hatch>BackwardDiagonal</Hatch>
+    <ARGB>255 0 255 255</ARGB>
+    <Flag>1</Flag>
+    <Mark>1</Mark>
+  </STYL>
+  <STYL>
+    <Name>水力发电</Name>
+    <Hatch>BackwardDiagonal</Hatch>
+    <ARGB>255 0 255 255</ARGB>
+    <Flag>4</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>储能填谷</Name>
+    <Hatch>HorizontalBrick</Hatch>
+    <ARGB>255 0 0 255</ARGB>
+    <Flag>25</Flag>
+    <Mark>1</Mark>
+  </STYL>
+  <STYL>
+    <Name>储能发电</Name>
+    <Hatch>OutlinedDiamond</Hatch>
+    <ARGB>255 0 0 255</ARGB>
+    <Flag>5</Flag>
+    <Mark>1</Mark>
+  </STYL>
+  <STYL>
+    <Name>火力发电</Name>
+    <Hatch>ForwardDiagonal</Hatch>
+    <ARGB>255 255 0 0</ARGB>
+    <Flag>3</Flag>
+    <Mark>1</Mark>
+  </STYL>
+  <STYL>
+    <Name>核能发电</Name>
+    <Hatch>Sphere</Hatch>
+    <ARGB>255 255 215 0</ARGB>
+    <Flag>2</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>水电09</Name>
+    <Hatch>LightDownwardDiagonal</Hatch>
+    <ARGB>255 0 255 255</ARGB>
+    <Flag>101</Flag>
+    <Mark>1</Mark>
+  </STYL>
+  <STYL>
+    <Name>水电10</Name>
+    <Hatch>LightUpwardDiagonal</Hatch>
+    <ARGB>255 0 255 255</ARGB>
+    <Flag>102</Flag>
+    <Mark>1</Mark>
+  </STYL>
+  <STYL>
+    <Name>火电13</Name>
+    <Hatch>LightVertical</Hatch>
+    <ARGB>255 255 0 0</ARGB>
+    <Flag>103</Flag>
+    <Mark>1</Mark>
+  </STYL>
+  <STYL>
+    <Name>火电14</Name>
+    <Hatch>NarrowVertical</Hatch>
+    <ARGB>255 255 0 0</ARGB>
+    <Flag>104</Flag>
+    <Mark>1</Mark>
+  </STYL>
+  <STYL>
+    <Name>电站5</Name>
+    <Hatch>DiagonalCross</Hatch>
+    <ARGB>255 255 0 0</ARGB>
+    <Flag>105</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>发电曲线</Name>
+    <Hatch>1030302</Hatch>
+    <ARGB>1</ARGB>
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>日负荷</Name>
+    <Hatch>模拟点数</Hatch>
+    <ARGB>48</ARGB>
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>纵坐标</Name>
+    <Hatch>24000</Hatch>
+    <ARGB>0.1</ARGB>
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+</NewDataSet>

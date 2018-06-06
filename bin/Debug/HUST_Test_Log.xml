@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HUST_Test-ErrorLog>
+  <Log logType="Exception" occurTime="2018/3/12 10:14:51">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:47:01">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:47:00">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:47:00">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:47:00">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:46:56">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:44:15">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:44:14">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:44:14">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:44:14">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:44:14">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:44:13">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:44:13">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:44:12">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/12 9:44:09">
+    <LogContent>
+      <ErrorModule>mscorlib</ErrorModule>
+      <ErrorMethod>Void WinIOError(Int32, System.String)</ErrorMethod>
+      <ErrorMessage>未能找到文件“D:\Development\HUST_Test\bin\Debug\TableViewConfig_0.xml”。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LPSP_OutPut.FigureView.GetBackColorAndHatchStyle() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 524
+   在 LPSP_OutPut.FigureView.GenerateFillBrushed() 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 564
+   在 LPSP_OutPut.FigureView..ctor(Boolean unitFlg) 位置 D:\Development\HUST_Test\LPSP_OutPut\FigureView.cs:行号 47
+   在 HUST_Test.HUST_Test.btnPos_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 99</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:23">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:23">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:23">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:23">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:23">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:23">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:07">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:07">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:07">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:06">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:06">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:06">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:05">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:05">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:05">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:04">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:04">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:04">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:03">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+  <Log logType="Exception" occurTime="2018/3/5 22:03:00">
+    <LogContent>
+      <ErrorModule>LPSP_OutPut</ErrorModule>
+      <ErrorMethod>Void .ctor()</ErrorMethod>
+      <ErrorMessage>未能加载文件或程序集“LPSP_MergeDGV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。</ErrorMessage>
+      <Data />
+      <StackTrace>   在 LPSP_OutPut.TableView..ctor()
+   在 HUST_Test.HUST_Test.btnSheet_Click(Object sender, EventArgs e) 位置 D:\Development\HUST_Test\HUST_Test.cs:行号 66</StackTrace>
+      <InnerException />
+      <OSVersion>Microsoft Windows NT 6.2.9200.0</OSVersion>
+    </LogContent>
+  </Log>
+</HUST_Test-ErrorLog>

@@ -1,0 +1,764 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="SimSet">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Items" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SimOut">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Items" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="STYL">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Hatch" type="xs:string" minOccurs="0" />
+                <xs:element name="ARGB" type="xs:string" minOccurs="0" />
+                <xs:element name="Flag" type="xs:int" minOccurs="0" />
+                <xs:element name="Mark" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TEST">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Flag" type="xs:string" minOccurs="0" />
+                <xs:element name="Title" type="xs:string" minOccurs="0" />
+                <xs:element name="Remark" type="xs:string" minOccurs="0" />
+                <xs:element name="Unit" type="xs:string" minOccurs="0" />
+                <xs:element name="Page" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <SimSet>
+    <Items>模拟年份</Items>
+    <Value>2010</Value>
+  </SimSet>
+  <SimSet>
+    <Items>水文条件</Items>
+    <Value>1</Value>
+  </SimSet>
+  <SimSet>
+    <Items>迭代精度</Items>
+    <Value>0.005</Value>
+  </SimSet>
+  <SimSet>
+    <Items>模拟间隔</Items>
+    <Value>2</Value>
+  </SimSet>
+  <SimSet>
+    <Items>启停天数</Items>
+    <Value>3</Value>
+  </SimSet>
+  <SimSet>
+    <Items>free05</Items>
+    <Value>预留</Value>
+  </SimSet>
+  <SimSet>
+    <Items>潮流计算</Items>
+    <Value>0</Value>
+  </SimSet>
+  <SimSet>
+    <Items>基准功率</Items>
+    <Value>1000</Value>
+  </SimSet>
+  <SimSet>
+    <Items>free08</Items>
+    <Value>预留</Value>
+  </SimSet>
+  <SimSet>
+    <Items>负荷生成</Items>
+    <Value>0</Value>
+  </SimSet>
+  <SimSet>
+    <Items>新能源发电</Items>
+    <Value>0</Value>
+  </SimSet>
+  <SimSet>
+    <Items>场景类型</Items>
+    <Value>9999</Value>
+  </SimSet>
+  <SimSet>
+    <Items>free12</Items>
+    <Value>预留</Value>
+  </SimSet>
+  <SimSet>
+    <Items>free13</Items>
+    <Value>预留</Value>
+  </SimSet>
+  <SimSet>
+    <Items>平衡原则</Items>
+    <Value>1</Value>
+  </SimSet>
+  <SimSet>
+    <Items>free15</Items>
+    <Value>预留</Value>
+  </SimSet>
+  <SimSet>
+    <Items>火电负载序位</Items>
+    <Value>1</Value>
+  </SimSet>
+  <SimSet>
+    <Items>水电负载序位</Items>
+    <Value>0</Value>
+  </SimSet>
+  <SimSet>
+    <Items>free18</Items>
+    <Value>预留</Value>
+  </SimSet>
+  <SimSet>
+    <Items>调峰弃电序位</Items>
+    <Value>3</Value>
+  </SimSet>
+  <SimSet>
+    <Items>free20</Items>
+    <Value>预留</Value>
+  </SimSet>
+  <SimSet>
+    <Items>free21</Items>
+    <Value>预留</Value>
+  </SimSet>
+  <SimSet>
+    <Items>方案ID</Items>
+    <Value>1</Value>
+  </SimSet>
+  <SimSet>
+    <Items>方案简述</Items>
+    <Value>系统及分区全年8760小时运行模拟分析</Value>
+  </SimSet>
+  <SimSet>
+    <Items>方案生成时间</Items>
+    <Value>2018/2/7 16:32:04</Value>
+  </SimSet>
+  <SimSet>
+    <Items>最新修改时间</Items>
+    <Value>2018/2/24 6:31:11</Value>
+  </SimSet>
+  <SimSet>
+    <Items>输出电站出力</Items>
+    <Value>1</Value>
+  </SimSet>
+  <SimSet>
+    <Items>free27</Items>
+    <Value>预留</Value>
+  </SimSet>
+  <SimSet>
+    <Items>输入文件路径</Items>
+    <Value>E:\HUST\HUST_GTPS\DATA\</Value>
+  </SimSet>
+  <SimSet>
+    <Items>输入文件名</Items>
+    <Value>HUST_GTPS_Exam</Value>
+  </SimSet>
+  <SimSet>
+    <Items>输出公用名</Items>
+    <Value>E:\HUST\HUST_GTPS\DATA\XML\HUST_GTPS_Exam</Value>
+  </SimSet>
+  <SimOut>
+    <Items>模拟结果</Items>
+    <Value>0</Value>
+  </SimOut>
+  <SimOut>
+    <Items>结果路径</Items>
+    <Value>E:\HUST\HUST_GTPS\DATA\XML\HUST_GTPS_Exam_2010_1010</Value>
+  </SimOut>
+  <SimOut>
+    <Items>方案ID</Items>
+    <Value>1</Value>
+  </SimOut>
+  <SimOut>
+    <Items>模拟年份</Items>
+    <Value>2010</Value>
+  </SimOut>
+  <SimOut>
+    <Items>水文条件</Items>
+    <Value>1</Value>
+  </SimOut>
+  <SimOut>
+    <Items>新能源发电</Items>
+    <Value>0</Value>
+  </SimOut>
+  <SimOut>
+    <Items>新能源场景</Items>
+    <Value>9999</Value>
+  </SimOut>
+  <SimOut>
+    <Items>方案简述</Items>
+    <Value>系统及分区全年8760小时运行模拟分析</Value>
+  </SimOut>
+  <SimOut>
+    <Items>附加注释</Items>
+    <Value>曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3</Value>
+  </SimOut>
+  <SimOut>
+    <Items>小数位数</Items>
+    <Value>1</Value>
+  </SimOut>
+  <SimOut>
+    <Items>表单选项</Items>
+    <Value>3 -系统电量平衡结果表</Value>
+  </SimOut>
+  <SimOut>
+    <Items>图片选项</Items>
+    <Value>2 -电站发电曲线图</Value>
+  </SimOut>
+  <SimOut>
+    <Items>标题前缀</Items>
+    <Value>表C-</Value>
+  </SimOut>
+  <SimOut>
+    <Items>图表编号</Items>
+    <Value>1</Value>
+  </SimOut>
+  <SimOut>
+    <Items>显示行号</Items>
+    <Value>True</Value>
+  </SimOut>
+  <SimOut>
+    <Items>显示网格</Items>
+    <Value>True</Value>
+  </SimOut>
+  <SimOut>
+    <Items>添加备注</Items>
+    <Value>False</Value>
+  </SimOut>
+  <SimOut>
+    <Items>附加注释</Items>
+    <Value>True</Value>
+  </SimOut>
+  <SimOut>
+    <Items>单位：万kW/亿kWh</Items>
+    <Value>True</Value>
+  </SimOut>
+  <SimOut>
+    <Items>页面方向：纵向</Items>
+    <Value>True</Value>
+  </SimOut>
+  <SimOut>
+    <Items>pre20</Items>
+    <Value>图表信息</Value>
+  </SimOut>
+  <SimOut>
+    <Items>系统选项</Items>
+    <Value>10101</Value>
+  </SimOut>
+  <SimOut>
+    <Items>线路选项</Items>
+    <Value>1010011</Value>
+  </SimOut>
+  <SimOut>
+    <Items>电站选项</Items>
+    <Value>1010000000000000000000000010100000000000000000000000001000011</Value>
+  </SimOut>
+  <SimOut>
+    <Items>火电选项</Items>
+    <Value>11100000000000000000000011</Value>
+  </SimOut>
+  <SimOut>
+    <Items>弃电选项</Items>
+    <Value>1110000000000000000000000000001</Value>
+  </SimOut>
+  <SimOut>
+    <Items>工作位置</Items>
+    <Value>001111101000001000000100000000000011000110001100001010</Value>
+  </SimOut>
+  <SimOut>
+    <Items>pre27</Items>
+    <Value>设置日期</Value>
+  </SimOut>
+  <SimOut>
+    <Items>月</Items>
+    <Value>7</Value>
+  </SimOut>
+  <SimOut>
+    <Items>日</Items>
+    <Value>31</Value>
+  </SimOut>
+  <SimOut>
+    <Items>pre30</Items>
+    <Value>按月设置日期</Value>
+  </SimOut>
+  <SimOut>
+    <Items>1月</Items>
+    <Value>9</Value>
+  </SimOut>
+  <SimOut>
+    <Items>2月</Items>
+    <Value>27</Value>
+  </SimOut>
+  <SimOut>
+    <Items>3月</Items>
+    <Value>31</Value>
+  </SimOut>
+  <SimOut>
+    <Items>4月</Items>
+    <Value>31</Value>
+  </SimOut>
+  <SimOut>
+    <Items>5月</Items>
+    <Value>33</Value>
+  </SimOut>
+  <SimOut>
+    <Items>6月</Items>
+    <Value>33</Value>
+  </SimOut>
+  <SimOut>
+    <Items>7月</Items>
+    <Value>33</Value>
+  </SimOut>
+  <SimOut>
+    <Items>8月</Items>
+    <Value>33</Value>
+  </SimOut>
+  <SimOut>
+    <Items>9月</Items>
+    <Value>32</Value>
+  </SimOut>
+  <SimOut>
+    <Items>10月</Items>
+    <Value>33</Value>
+  </SimOut>
+  <SimOut>
+    <Items>11月</Items>
+    <Value>36</Value>
+  </SimOut>
+  <SimOut>
+    <Items>12月</Items>
+    <Value>19</Value>
+  </SimOut>
+  <STYL>
+    <Name>原始负荷</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>0</Flag>
+    <Mark>1</Mark>
+  </STYL>
+  <STYL>
+    <Name>电力不足</Name>
+    <Hatch>Percent10</Hatch>
+    <ARGB>255 211 211 211</ARGB>
+    <Flag>21</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>调峰不足</Name>
+    <Hatch>Percent25</Hatch>
+    <ARGB>255 255 255 255</ARGB>
+    <Flag>40</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>光伏弃光</Name>
+    <Hatch>BackwardDiagonal</Hatch>
+    <ARGB>255 255 255 0</ARGB>
+    <Flag>50</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>光伏发电</Name>
+    <Hatch>LightVertical</Hatch>
+    <ARGB>255 255 255 0</ARGB>
+    <Flag>30</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>风电弃风</Name>
+    <Hatch>BackwardDiagonal</Hatch>
+    <ARGB>255 0 255 0</ARGB>
+    <Flag>52</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>风力发电</Name>
+    <Hatch>LightVertical</Hatch>
+    <ARGB>255 0 255 0</ARGB>
+    <Flag>32</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>新能源弃电</Name>
+    <Hatch>BackwardDiagonal</Hatch>
+    <ARGB>255 0 128 0</ARGB>
+    <Flag>55</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>新能源发电</Name>
+    <Hatch>LightVertical</Hatch>
+    <ARGB>255 0 128 0</ARGB>
+    <Flag>35</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>水电弃水</Name>
+    <Hatch>DiagonalCross</Hatch>
+    <ARGB>255 0 255 255</ARGB>
+    <Flag>45</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>水力发电</Name>
+    <Hatch>BackwardDiagonal</Hatch>
+    <ARGB>255 0 255 255</ARGB>
+    <Flag>1</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>水力发电</Name>
+    <Hatch>BackwardDiagonal</Hatch>
+    <ARGB>255 0 255 255</ARGB>
+    <Flag>4</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>储能填谷</Name>
+    <Hatch>HorizontalBrick</Hatch>
+    <ARGB>255 0 0 255</ARGB>
+    <Flag>25</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>储能发电</Name>
+    <Hatch>OutlinedDiamond</Hatch>
+    <ARGB>255 0 0 255</ARGB>
+    <Flag>5</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>火力发电</Name>
+    <Hatch>ForwardDiagonal</Hatch>
+    <ARGB>255 255 0 0</ARGB>
+    <Flag>3</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>核能发电</Name>
+    <Hatch>Sphere</Hatch>
+    <ARGB>255 255 215 0</ARGB>
+    <Flag>2</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>电站1</Name>
+    <Hatch>LightDownwardDiagonal</Hatch>
+    <ARGB>255 255 0 0</ARGB>
+    <Flag>101</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>电站2</Name>
+    <Hatch>LightUpwardDiagonal</Hatch>
+    <ARGB>255 0 0 255</ARGB>
+    <Flag>102</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>电站3</Name>
+    <Hatch>LightVertical</Hatch>
+    <ARGB>255 255 0 0</ARGB>
+    <Flag>103</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>电站4</Name>
+    <Hatch>NarrowVertical</Hatch>
+    <ARGB>255 0 255 255</ARGB>
+    <Flag>104</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>电站5</Name>
+    <Hatch>DiagonalCross</Hatch>
+    <ARGB>255 255 0 0</ARGB>
+    <Flag>105</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>发电曲线</Name>
+    <Hatch>201031</Hatch>
+    <ARGB>1</ARGB>
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>日负荷</Name>
+    <Hatch>模拟点数</Hatch>
+    <ARGB>48</ARGB>
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>纵坐标</Name>
+    <Hatch>100000</Hatch>
+    <ARGB>0.1</ARGB>
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <STYL>
+    <Name>预留</Name>
+    <Hatch />
+    <ARGB />
+    <Flag>9999</Flag>
+    <Mark>0</Mark>
+  </STYL>
+  <TEST>
+    <Flag>路径</Flag>
+    <Title>D:\Development\HUST_Test\DATA\</Title>
+    <Remark />
+    <Unit />
+    <Page>0</Page>
+  </TEST>
+  <TEST>
+    <Flag>位置</Flag>
+    <Title>图A-1 Sys系统 2010年枯水年2月2日 电站工作位置图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：MW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>位置</Flag>
+    <Title>图A-2 SubA系统 2010年枯水年2月2日 电站工作位置图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：MW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>位置</Flag>
+    <Title>图A-3 SubB系统 2010年枯水年2月2日 电站工作位置图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：MW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>位置</Flag>
+    <Title>图A-4 SubD系统 2010年枯水年2月2日 电站工作位置图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：MW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>位置</Flag>
+    <Title>图B-1 Sys系统 2010年枯水年8月1日 电站工作位置图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>位置</Flag>
+    <Title>图B-2 SubA系统 2010年枯水年8月1日 电站工作位置图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>位置</Flag>
+    <Title>图B-3 SubB系统 2010年枯水年8月1日 电站工作位置图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>位置</Flag>
+    <Title>图B-4 SubC系统 2010年枯水年8月1日 电站工作位置图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>位置</Flag>
+    <Title>图B-5 SubD系统 2010年枯水年8月1日 电站工作位置图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>位置</Flag>
+    <Title>图C-1 Sys系统 2010年枯水年10月30日 电站工作位置图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>位置</Flag>
+    <Title>图C-2 SubB系统 2010年枯水年10月30日 电站工作位置图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>位置</Flag>
+    <Title>图C-3 SubD系统 2010年枯水年10月30日 电站工作位置图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>曲线</Flag>
+    <Title>图11-10 Sys系统 2010年枯水年 电站发电曲线图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>10</Page>
+  </TEST>
+  <TEST>
+    <Flag>曲线</Flag>
+    <Title>图12-10 SubA系统 2010年枯水年 电站发电曲线图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>10</Page>
+  </TEST>
+  <TEST>
+    <Flag>曲线</Flag>
+    <Title>图13-10 SubB系统 2010年枯水年 电站发电曲线图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>10</Page>
+  </TEST>
+  <TEST>
+    <Flag>曲线</Flag>
+    <Title>图14-10 SubC系统 2010年枯水年 电站发电曲线图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：MW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>曲线</Flag>
+    <Title>图15-10 SubD系统 2010年枯水年 电站发电曲线图</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：MW</Unit>
+    <Page>10</Page>
+  </TEST>
+  <TEST>
+    <Flag>表单</Flag>
+    <Title>表A-1 Sys系统 2010年枯水年 二氧化碳排放平衡结果表</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：吨，g/kWh</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>表单</Flag>
+    <Title>表A-2 SubA系统 2010年枯水年 二氧化碳排放平衡结果表</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：吨，g/kWh</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>表单</Flag>
+    <Title>表A-3 SubC系统 2010年枯水年 二氧化碳排放平衡结果表</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：吨，g/kWh</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>表单</Flag>
+    <Title>表B-1 Sys系统 2010年枯水年 电力平衡结果表</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>表单</Flag>
+    <Title>表B-2 SubA系统 2010年枯水年 电力平衡结果表</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>表单</Flag>
+    <Title>表B-3 SubB系统 2010年枯水年 电力平衡结果表</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>表单</Flag>
+    <Title>表B-4 SubC系统 2010年枯水年 电力平衡结果表</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>表单</Flag>
+    <Title>表B-5 SubD系统 2010年枯水年 电力平衡结果表</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：万kW</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>表单</Flag>
+    <Title>表C-1 Sys系统 2010年枯水年 电量平衡结果表</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：亿kWh，h</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>表单</Flag>
+    <Title>表C-2 SubB系统 2010年枯水年 电量平衡结果表</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：亿kWh，h</Unit>
+    <Page>11</Page>
+  </TEST>
+  <TEST>
+    <Flag>表单</Flag>
+    <Title>表C-3 SubD系统 2010年枯水年 电量平衡结果表</Title>
+    <Remark>（曲线生成：负荷0/新能源0；发电序位：分区平衡1/火电1/水电0/调峰弃电3）</Remark>
+    <Unit>单位：亿kWh，h</Unit>
+    <Page>11</Page>
+  </TEST>
+</NewDataSet>
