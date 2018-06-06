@@ -232,7 +232,8 @@ namespace HUST_Test
         rows = cfgDS.Tables["TEST"].Select("Flag = '位置'");
         foreach (DataRow row in rows)
         {
-          string str = row["Title"].ToString().Trim().Substring(0, row["Title"].ToString().Trim().IndexOf("-"));
+          string[] s=row["Title"].ToString().Split(' ');
+          string str =s[0];
           isOK = true;
           for (int i = cmbPos.Items.Count - 1; i >= 0; i--)
           {
@@ -247,7 +248,8 @@ namespace HUST_Test
         rows = cfgDS.Tables["TEST"].Select("Flag = '曲线'");
         foreach (DataRow row in rows)
         {
-          string str = row["Title"].ToString().Trim().Substring(0, row["Title"].ToString().Trim().IndexOf("-"));
+          string[] s=row["Title"].ToString().Split(' ');
+          string str = s[0];
           isOK = true;
           for (int i = cmbCurve.Items.Count - 1; i >= 0; i--)
           {
