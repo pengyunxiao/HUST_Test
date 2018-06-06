@@ -228,7 +228,7 @@ namespace HUST_Test
           if (isOK) cmbSheet.Items.Add(str);
         }
         if (cmbSheet.Items.Count > 0) cmbSheet.Text = cmbSheet.Items[0].ToString().Trim();
-        // 工作位置选项初始化
+        // 工作位置选项初始化说明
         rows = cfgDS.Tables["TEST"].Select("Flag = '位置'");
         foreach (DataRow row in rows)
         {
