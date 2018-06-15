@@ -113,7 +113,7 @@
     </Reference>
     <Reference Include="ExportTools, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\new.4_182.0\new.4_18\new\TableParagraph（两个入口函数）新\TableParagraph\TableParagraph\bin\Debug\ExportTools.dll</HintPath>
+      <HintPath>..\..\Development\电力系统程序\CSPS_ProS\bin\Debug\ExportTools.dll</HintPath>
     </Reference>
     <Reference Include="LPSP_HUST, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

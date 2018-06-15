@@ -519,6 +519,8 @@ namespace HUST_OutPut
             } 
             return result;
         }
+        
+        //根据datatable里STYL表设置图片背景色和填充风格
         private string[] GetBackColorAndHatchStyle()
         {
             XmlDocument xmldoc = new XmlDocument();

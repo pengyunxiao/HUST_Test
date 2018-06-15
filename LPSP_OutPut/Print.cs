@@ -191,11 +191,11 @@ namespace HUST_OutPut
                 string[] arrStr = tab.Tabs[index].Tooltip.Split(new string[] { "\n" }, StringSplitOptions.None);
                 if (arrStr.Length > 2)
                 {
-                    this.name = arrStr[0] + " " + arrStr[1] + "\n";
-                    if (arrStr[2].Trim() != "")
-                        this.name += "(" + arrStr[2] + ")";///dgv.Name;
-                    /////this.beizhu = arrStr[2];
-                    this.unit = arrStr[3];
+                    this.name = arrStr[0] + "\n" + arrStr[1] + "\n";
+                    //if (arrStr[2].Trim() != "")
+                    //    this.name += "(" + arrStr[2] + ")";///dgv.Name;
+                    ///////this.beizhu = arrStr[2];
+                    this.unit = arrStr[2];
                 }
                 else
                 {//当传过来 自定义表格时 arrStr没有[2]

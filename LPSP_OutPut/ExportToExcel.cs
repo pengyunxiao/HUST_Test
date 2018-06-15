@@ -734,7 +734,6 @@ namespace ExportTools
                 {
                     index++;
                     object[] dr = datas[i];
-                    continue;
                     var r = new Row { RowIndex = (uint)index };
 
                     for (int col = 0; col < numCols; col++)

@@ -349,7 +349,7 @@ namespace HUST_OutPut
                         string[] arrStr = ti.Tooltip.Split(new string[] { "\n" }, StringSplitOptions.None);
                         if (arrStr.Length > 2)
                         {
-                            prt.name = arrStr[0] + " " + arrStr[1] + "\n";
+                            prt.name = arrStr[0] + "\n" + arrStr[1] + "\n";
                             //if (arrStr[2].Trim() != "")
                             //    prt.name += "(" + arrStr[2] + ")";///dgv.Name;
                             /////prt.beizhu = arrStr[2];
@@ -490,6 +490,7 @@ namespace HUST_OutPut
                     //关闭进度条
                     this.myprogress.isOver = true;
                 }
+                System.Diagnostics.Process.Start("explorer.exe", "/select, " + saveFileDialog.FileName);
             }
         }
 
@@ -547,9 +548,9 @@ namespace HUST_OutPut
             
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                //Thread thdSub = new Thread(new ThreadStart(this.progressB));
-                //thdSub.Start();
-                //Thread.Sleep(100);
+                Thread thdSub = new Thread(new ThreadStart(this.progressB));
+                thdSub.Start();
+                Thread.Sleep(100);
                 try
                 {
                     string description = "";
@@ -558,7 +559,7 @@ namespace HUST_OutPut
                     if (arrString.Length > 2)
                     {
                         if (arrString[1] != "")
-                            description = "(" + arrString[1] + ")";
+                            description = arrString[1];
                         unitString = arrString[2];
                     }
 
@@ -586,9 +587,10 @@ namespace HUST_OutPut
                 }
                 finally
                 {
-                    ////关闭进度条
-                    //this.myprogress.isOver = true;
+                    //关闭进度条
+                    this.myprogress.isOver = true;
                 }
+                System.Diagnostics.Process.Start("explorer.exe", "/select, " + saveFileDialog.FileName);
             }
         }
 
